@@ -49,6 +49,6 @@ describe('NY Times Most Popular Articles App', () => {
   it('should handle API errors gracefully', () => {
     cy.intercept('GET', '**/mostpopular/**', { forceNetworkError: true }).as('getArticles');
     cy.visit('http://localhost:3000/');
-    cy.get('[data-testid="error-message"]').should('exist');
+    cy.get('[data-testid="error-message"]',{timeout: 4000 }).should('exist');
   });
 });
