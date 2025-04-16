@@ -2,11 +2,12 @@
 /*
 # NY Times Most Popular App
 
-## 🔧 Setup
-
+##  Setup
+##   Node Version ====> 
+v.16.15.0
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/nyt-most-popular-app.git
+git clone https://github.com/naumanraees2/nyt-most-popular-app.git
 cd nyt-most-popular-app
 ```
 
@@ -25,7 +26,7 @@ REACT_APP_NYT_API_KEY=your-nyt-api-key
 npm start
 ```
 
-## 🧪 Testing
+##  Testing
 
 ### Unit Tests
 ```bash

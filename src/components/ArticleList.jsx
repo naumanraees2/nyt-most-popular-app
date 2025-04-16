@@ -9,7 +9,7 @@ const ArticleList = ({ articles, loading, error }) => {
   return (
     <div>
       <h1>NY Times Most Popular Articles</h1>
-      <ul>
+      <ul data-testid="article-list">
         {articles.map((article) => (
           <li key={article.id}>
             <Link to={`/article/${article.id}`} state={{ article }}>
